@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69a0969b-8e03-43a5-8490-f262016f5da9" name="Default Changelist" comment="" />
+    <list default="true" id="69a0969b-8e03-43a5-8490-f262016f5da9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/xstream_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xmlpull-1.1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xpp3_min-1.1.4c.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xstream-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/service/ClothesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/service/impl/ClothesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/ui/HomeClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/utils/ConsoleTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/utils/ProductsXmlUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/utils/ProsuctsXmlUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vince/service/ClothesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vince/service/impl/ClothesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vince/ui/HomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vince/utils/ConsoleTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vince/utils/ProductsXmlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vince/utils/ProsuctsXmlUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClothesSupermarketSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ClothesSupermarketSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/res/r.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/res/r.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/res/r_temp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/res/r_temp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/ui/WelcomeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClothesSupermarketSystem/com/vince/ui/WelcomeClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vince/res/r.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vince/res/r.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vince/res/r_temp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vince/res/r_temp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vince/ui/WelcomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vince/ui/WelcomeClass.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,28 +68,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vince/ui/RegistetClass.java">
+        <entry file="file://$PROJECT_DIR$/products.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vince/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vince/utils/UserIo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vince/ui/HomeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="152">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,25 +89,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vince/utils/BusinessException.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ResourceBundle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="449" selection-start-line="449" selection-end-line="449" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vince/service/impl/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vince/res/r_temp.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="361">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vince/res/r.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -97,26 +118,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vince/ui/WelcomeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="893">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vince/utils/EmptyUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vince/service/impl/ClothesServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vince/utils/OrderStatusType.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vince/utils/ConsoleTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="626">
+              <caret line="91" column="44" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="91" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#198#204#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,10 +155,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/com/vince/WelcomeClass.java" />
         <option value="$PROJECT_DIR$/src/com/vince/utils/BusinessException.java" />
         <option value="$PROJECT_DIR$/src/com/vince/service/UserService11.java" />
-        <option value="$PROJECT_DIR$/src/com/vince/res/r_temp.properties" />
         <option value="$PROJECT_DIR$/src/com/vince/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/vince/utils/EmptyUtils.java" />
         <option value="$PROJECT_DIR$/src/com/vince/ui/Login.java" />
@@ -156,7 +187,17 @@
         <option value="$PROJECT_DIR$/src/com/vince/utils/UserIo.java" />
         <option value="$PROJECT_DIR$/src/com/vince/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/vince/ui/RegistetClass.java" />
+        <option value="$PROJECT_DIR$/src/com/vince/products.fxml" />
+        <option value="$PROJECT_DIR$/products.fxml" />
+        <option value="$PROJECT_DIR$/products.xml" />
+        <option value="$PROJECT_DIR$/src/com/vince/utils/ProductsXmlUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/vince/utils/ProsuctsXmlUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/com/vince/ui/WelcomeClass.java" />
+        <option value="$PROJECT_DIR$/src/com/vince/utils/ConsoleTable.java" />
+        <option value="$PROJECT_DIR$/src/com/vince/service/ClothesService.java" />
+        <option value="$PROJECT_DIR$/src/com/vince/service/impl/ClothesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/vince/res/r_temp.properties" />
+        <option value="$PROJECT_DIR$/src/com/vince/ui/HomeClass.java" />
       </list>
     </option>
   </component>
@@ -166,17 +207,21 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="62" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="41" />
     <option name="width" value="992" />
     <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,7 +296,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -260,14 +304,22 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558829487042" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/xstream-1.4.2.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/lib/xstream-1.4.2.jar" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\this\Desktop\daima\ClothesSupermarketSystem" />
+      <recent name="C:\Users\this\Desktop\daima\ClothesSupermarketSystem\src" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -322,6 +374,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProsuctsXmlUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClothesSupermarketSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vince.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vince.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.vince.utils.ProsuctsXmlUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.vince.res in ClothesSupermarketSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClothesSupermarketSystem" />
       <extension name="coverage">
@@ -343,6 +410,7 @@
       <list>
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Batch.run (1)" />
+        <item itemvalue="JUnit.ProsuctsXmlUtilsTest" />
         <item itemvalue="JUnit.com.vince.res in ClothesSupermarketSystem" />
       </list>
     </recent_temporary>
@@ -358,12 +426,17 @@
       <option name="presentableId" value="Default" />
       <updated>1558055352880</updated>
     </task>
+    <task id="LOCAL-00001" summary="add products.xml">
+      <created>1558868457596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558868457596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_vince_res_META-INF_in_ClothesSupermarketSystem - 2019.05.17 at 11h 11m 08s.xml">
-      <configuration name="com.vince.res.META-INF in ClothesSupermarketSystem" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_vince_res_in_ClothesSupermarketSystem - 2019.05.17 at 11h 12m 03s.xml">
       <configuration name="com.vince.res in ClothesSupermarketSystem" configurationId="JUnit" />
     </history-entry>
@@ -391,6 +464,9 @@
     <history-entry file="com_vince_res_in_ClothesSupermarketSystem - 2019.05.17 at 12h 28m 16s.xml">
       <configuration name="com.vince.res in ClothesSupermarketSystem" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProsuctsXmlUtilsTest - 2019.05.26 at 20h 16m 37s.xml">
+      <configuration name="ProsuctsXmlUtilsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,7 +481,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21162046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,8 +490,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35140997" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32920355" />
@@ -465,6 +541,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add products.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add products.xml" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -588,35 +668,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vince/res/r.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WelcomeClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vince/res/r_temp.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vince/ui/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vince/ui/LoginClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,34 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/EmptyUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/OrderStatusType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vince/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vince/ui/WelcomeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/products.fxml" />
     <entry file="file://$PROJECT_DIR$/src/com/vince/ui/RegistetClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -678,6 +707,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/UserIo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vince/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -685,10 +724,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/UserIo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/EmptyUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/xstream_1_4_2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/ProsuctsXmlUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/OrderStatusType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/ProductsXmlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/VonsoleTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/service/ClothesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/service/impl/ClothesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/utils/ConsoleTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="91" column="44" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="91" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#198#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="449" selection-start-line="449" selection-end-line="449" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/ui/LoginClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/ui/WelcomeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/res/r.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/res/r_temp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vince/ui/HomeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -753,7 +923,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -761,7 +930,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>junit:junit:4.12</last-edited>
+          <last-edited>xstream-1.4.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
