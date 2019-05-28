@@ -84,6 +84,7 @@ public class ConsoleTable {
         ConsoleTable t = new ConsoleTable(8, true);
         t.appendRow();
         t.appendColum("id")
+                .appendColum("brand")
                 .appendColum("style")
                 .appendColum("color")
                 .appendColum("size")

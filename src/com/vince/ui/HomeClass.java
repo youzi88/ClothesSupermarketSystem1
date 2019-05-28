@@ -10,6 +10,7 @@ import com.vince.service.impl.OrderServiceImpl;
 import com.vince.utils.BusinessException;
 import com.vince.utils.ConsoleTable;
 import com.vince.utils.DateUtils;
+import org.junit.Test;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -104,7 +105,8 @@ public class HomeClass extends BaseClass{
         order.setOrderId(orderService.list().size()+1);
         orderService.buyProduct(order);
         clothesService.update();
-        showProducts();
+        show();
+        //showProducts();
     }
 
     private void findOrderById() {
@@ -114,10 +116,12 @@ public class HomeClass extends BaseClass{
     }
 
     private void  showProducts(){
+      //  ClothesService clothesService = new ClothesServiceImpl();
         List<Clothes> list = clothesService.list();
         ConsoleTable t = new ConsoleTable(8,true);
         t.appendRow();
         t.appendColum("id")
+                .appendColum("brand")
                 .appendColum("style")
                 .appendColum("color")
                 .appendColum("size")
@@ -130,6 +134,7 @@ public class HomeClass extends BaseClass{
                     .appendColum(c.getBrand())
                     .appendColum(c.getStyle())
                     .appendColum(c.getColor())
+                    .appendColum(c.getSize())
                     .appendColum(c.getNum())
                     .appendColum(c.getPrice())
                     .appendColum(c.getDescription());
