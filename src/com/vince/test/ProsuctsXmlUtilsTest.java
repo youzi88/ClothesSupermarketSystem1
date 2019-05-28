@@ -1,6 +1,7 @@
-package com.vince.utils;
+package com.vince.test;
 
 import com.vince.bean.Clothes;
+import com.vince.utils.ProductsXmlUtils;
 import org.junit.Test;
 
 import java.util.Arrays;

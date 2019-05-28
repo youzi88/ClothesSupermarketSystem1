@@ -17,6 +17,8 @@ public class ProductsXmlUtils {
         xStream.useAttributeFor(Clothes.class,"id");
         try {
             BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream("products.xml"));
+            products = ((List<Clothes>) xStream .fromXML(inputStream));
+            inputStream.close();
         }catch (IOException e){
             e.printStackTrace();
         }
@@ -29,7 +31,7 @@ public class ProductsXmlUtils {
         xStream.useAttributeFor(Clothes.class,"id");
         try {
                 BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream("products.xml"));
-                outputStream.write("<?xml version=\"1.0\" encoding=\"tuf-8\"?>".getBytes());
+                outputStream.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>".getBytes());
                 xStream .toXML(products,outputStream);
                 outputStream.close();
             } catch (IOException e) {

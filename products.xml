@@ -14,9 +14,36 @@
         <brand>GAP</brand>
         <style>连衣裙</style>
         <color>黑白色</color>
-        <size>S</size>
+        <size>XL</size>
         <num>19</num>
         <price>164.0</price>
+        <description>系带无袖宽松夏季柔软碎花背心裙</description>
+    </clothes>
+    <clothes id="A0003">
+        <brand>GAP</brand>
+        <style>连衣裙</style>
+        <color>黑白色</color>
+        <size>XLL</size>
+        <num>19</num>
+        <price>364.0</price>
+        <description>系带无袖宽松夏季柔软碎花背心裙</description>
+    </clothes>
+    <clothes id="A0004">
+        <brand>GAP</brand>
+        <style>连衣裙</style>
+        <color>黑白色</color>
+        <size>S</size>
+        <num>19</num>
+        <price>464.0</price>
+        <description>系带无袖宽松夏季柔软碎花背心裙</description>
+    </clothes>
+    <clothes id="A0005">
+        <brand>GAP</brand>
+        <style>连衣裙</style>
+        <color>黑白色</color>
+        <size>M</size>
+        <num>22</num>
+        <price>664.0</price>
         <description>系带无袖宽松夏季柔软碎花背心裙</description>
     </clothes>
 </list>

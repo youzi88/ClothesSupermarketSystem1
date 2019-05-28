@@ -10,7 +10,7 @@ public class Clothes implements Serializable {
     private String size;//尺码
     private int num;//库存数量
     private float price;//单价
-    private String desription;//描述
+    private String description;//描述
 
     public String getId() {
         return id;
@@ -68,15 +68,15 @@ public class Clothes implements Serializable {
         this.price = price;
     }
 
-    public String getDesription() {
-        return desription;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDesription(String desription) {
-        this.desription = desription;
+    public void setDescription(String desription) {
+        this.description = desription;
     }
 
-    public Clothes(String id, String brand, String style, String color, String size, int num, float price, String desription) {
+    public Clothes(String id, String brand, String style, String color, String size, int num, float price, String description) {
         this.id = id;
         this.brand = brand;
         this.style = style;
@@ -84,6 +84,6 @@ public class Clothes implements Serializable {
         this.size = size;
         this.num = num;
         this.price = price;
-        this.desription = desription;
+        this.description = description;
     }
 }
