@@ -14,8 +14,10 @@ public class OrderIo  {
 
     public void add(Order order) throws BusinessException{
         orders.add(order);
+        writeOrders();
     }
     public List<Order> list() throws BusinessException{
+        readOrders();
         return orders;
     }
     public  Order findByOrderId(int  orderId) throws  BusinessException{
@@ -28,13 +30,14 @@ public class OrderIo  {
                 break;
             }
         }
-        return null;
+        return order;
     }
     public boolean writeOrders(){
         try {
             ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(ORDER_FILE));
             out.writeObject(orders);
             out.close();
+            return  true;
         }catch (IOException e){
             e.printStackTrace();
         }

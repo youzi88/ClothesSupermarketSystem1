@@ -11,7 +11,7 @@ public class OrderServiceImpl implements OrderService {
     private OrderIo orderIo = new OrderIo();
     @Override
     public void buyProduct(Order o) throws BusinessException {
-    orderIo.add(o);
+        orderIo.add(o);
     }
     @Override
     public List<Order> list() throws BusinessException {

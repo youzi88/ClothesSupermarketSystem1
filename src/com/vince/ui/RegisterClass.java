@@ -7,7 +7,11 @@ import com.vince.utils.BusinessException;
 
 import java.io.IOException;
 
-public class RegistetClass extends BaseClass {
+public class RegisterClass extends BaseClass {
+    private UserService userService;
+    public RegisterClass(){
+        userService = (UserService)beanFactory.getBean("userService");
+    }
     public void register() throws BusinessException, IOException {
         println(getString("input.username"));
         String username=input.nextLine();
