@@ -1,5 +1,6 @@
 <component name="libraryTable">
-  <library name="dom4j-2.1.1">
+  <library name="org.dom4j:dom4j:2.1.1" type="repository">
+    <properties maven-id="org.dom4j:dom4j:2.1.1" />
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/dom4j-2.1.1.jar!/" />
     </CLASSES>

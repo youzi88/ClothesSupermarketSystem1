@@ -3,11 +3,10 @@ import org.dom4j.Element;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.io.SAXReader;
-// org.w3c.dom.Element;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Iterator;
+
 /*
 * 创建Bean的factory类
 * */
@@ -52,6 +51,7 @@ public class BeanFactory {
                 String className = bean.attributeValue("class");
                 try {
                     return Class.forName(className).newInstance();
+                  //  return Class.forName(className).newInstance();
                 } catch (InstantiationException e) {
                     e.printStackTrace();
                 } catch (IllegalAccessException e) {
@@ -62,7 +62,5 @@ public class BeanFactory {
             }
         }
         return null;
-
-
     }
 }

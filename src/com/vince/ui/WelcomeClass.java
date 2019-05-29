@@ -35,7 +35,7 @@ public class WelcomeClass extends BaseClass {
                 case "2":
                     flag=false;
                     try {
-                        new RegistetClass().register();
+                        new RegisterClass().register();
                         println(getString("reg.success"));
                         flag = false;
                     }catch(BusinessException | IOException e){

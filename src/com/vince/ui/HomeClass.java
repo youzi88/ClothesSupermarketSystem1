@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.List;
 
 public class HomeClass extends BaseClass{
-    private  OrderService orderService = new OrderServiceImpl();
+    private  OrderService orderService= new OrderServiceImpl() ;
     private  ClothesService clothesService = new ClothesServiceImpl();
     public HomeClass(){
         orderService=(OrderService)beanFactory.getBean("orderService");
@@ -52,7 +52,6 @@ public class HomeClass extends BaseClass{
                     }catch (BusinessException e){
                         println(e.getMessage());
                     }
-
                     break;
                 case "4"://显示商品
                     show();
@@ -89,12 +88,11 @@ public class HomeClass extends BaseClass{
                 throw new BusinessException("product.num.error");
             }
             //一条订单明细
-            clothes.setNum(clothes.getNum()-num);//减去库存
-
+            clothes.setNum(clothes.getNum() - num);//减去库存
             orderItem.setClothes(clothes);
             orderItem.setShoppingNum(num);
             orderItem.setSum(clothes.getPrice()*num);
-            sum+=orderItem.getSum();
+            sum +=orderItem.getSum();
             orderItem.setItemId(count++);
             order.getOrderItemList().add(orderItem);
             println(getString("product.by.continue"));
@@ -110,7 +108,6 @@ public class HomeClass extends BaseClass{
                     flag = false;
                     break;
             }
-
         }
         order.setCreateDate(DateUtils.toDate(new Date()));
         order.setUserId(currUser.getId());
